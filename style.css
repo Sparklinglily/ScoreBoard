@@ -1,0 +1,145 @@
+body{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+ }
+
+
+ .main{
+    
+
+    max-width: 500px;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+
+
+ }
+ .yourResult{
+    background-image: linear-gradient(
+    #845edd,#4f07ca
+    );
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+    width: 350px;
+    border-radius: 15px;
+   
+ }
+ 
+ .score-Container p{
+    font-size: 10px;
+ }
+
+ .score-Container {
+    padding: 5px;
+    background-image: linear-gradient(
+    0deg,#6f3de2,#5e0ee7
+    );
+    margin: 0 auto;
+    font-size: large;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow:2px 1px 5px #2f4466  ;
+    /* background-color: #521ab4; */
+    
+    
+ }
+
+ .paragraph {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+
+ .summary{
+   margin-bottom: 0px;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 2px 1px 9px #e5e8ee ;
+
+
+ }
+ .summary h3{
+   padding-left: 20px;
+   text-align: start;
+ }
+
+ .reaction{
+   margin:0 15px 7px 15px;
+    border-radius: 7px;
+    
+    height: 40px;
+    background-color:#f9f7f3 ;
+    justify-content: space-between;
+    display: flex;
+ }
+
+ .memory{
+   margin:0 15px 7px 15px;
+    border-radius: 7px;
+    
+    height: 40px;
+    background-color:#f8f9fa;
+    justify-content: space-between;
+    display: flex;
+ }
+ .verbal{
+   margin:0 15px 7px 15px;
+    border-radius: 7px;
+    
+    height: 40px;
+    background-color:#eff1f3 ;
+    justify-content: space-between;
+    display: flex;
+ }
+ .visual{
+    margin:0 15px 25px 15px;
+    border-radius: 7px;
+    
+    height: 40px;
+    background-color:#f9f7f3;
+    justify-content: space-between;
+    display: flex;
+ }
+
+ .reaction .react{
+   padding-left: 5px;
+   font-weight: 600;
+   color: rgb(236, 151, 151);
+ }
+ .memory .mem{
+   padding-left: 5px;
+   font-weight: 600;
+   color: rgb(216, 248, 34);
+ }
+ .verbal .verb{
+   padding-left: 5px;
+   font-weight: 600;
+   color: rgb(38, 248, 203);
+ }
+ .visual .viz{
+   padding-left: 5px;
+   font-weight: 600;
+   color: rgb(147, 28, 158);
+ }
+ #btn{
+   border-radius: 30px;
+   padding: 15px 30px ;
+   box-shadow: 2px 3px 3px;
+   border: none;
+   font-size: 15px;
+   font-weight: 600;
+   color: #f8f9fa;
+   background-color: #0d0c1d ;
+   width: 150px;
+
+
+ }
+
+
